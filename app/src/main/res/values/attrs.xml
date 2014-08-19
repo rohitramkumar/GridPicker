@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="GridPicker">
+        <attr name="startValue" format="float" />
+        <attr name="increment" format="float"/>
+        <attr name="numColumns" format="integer"/>
+        <attr name="numRows" format="integer"/>
+        <attr name="rewindDrawable" format="reference"/>
+        <attr name="advanceDrawable" format="reference"/>
+        <attr name="numberDrawable" format="reference"/>
+    </declare-styleable>
+
+
+
+</resources>
