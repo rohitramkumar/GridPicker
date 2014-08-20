@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
+import com.rohitramkumar.gridpicker.app.ClickListener;
 import com.rohitramkumar.gridpicker.app.GridPicker;
 
 
@@ -16,6 +18,25 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         GridPicker gridPicker = (GridPicker) findViewById(R.id.sample_picker);
+
+        gridPicker.setClickListeners(new ClickListener() {
+            @Override
+            public void onAdvanceButtonClicked() {
+                // do nothing
+            }
+
+            @Override
+            public void onRewindButtonClicked() {
+                // do nothing
+            }
+
+            @Override
+            public void onNumberClicked(float num) {
+                Toast toast = Toast.makeText(MainActivity.this, Float.toString(num), Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
     }
 
 

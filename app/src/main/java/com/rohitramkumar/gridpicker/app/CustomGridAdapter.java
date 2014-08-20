@@ -120,7 +120,8 @@ public class CustomGridAdapter extends BaseAdapter {
             }
         }
         else {
-            button.setText(Integer.toString(Math.round(value)));
+            if(Math.round(value) == value) button.setText(Integer.toString(Math.round(value)));
+            else button.setText(Float.toString(value));
             if(drawableResourceList[0] != null) {
                 button.setBackgroundDrawable(null);
                 button.setBackgroundDrawable(drawableResourceList[0]);
@@ -140,12 +141,12 @@ public class CustomGridAdapter extends BaseAdapter {
 
 
     public void advanceGridValues() {
-        startValue += (numColumns * numRows) - 2;
+        startValue += ((numColumns * numRows) - 2) * increment;
         notifyDataSetChanged();
     }
 
     public void rewindGridValues() {
-        startValue -= (numColumns * numRows) - 2;
+        startValue -= ((numColumns * numRows) - 2) * increment;
         notifyDataSetChanged();
     }
 
