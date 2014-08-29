@@ -2,7 +2,7 @@ GridPicker
 ==========
 
 GridPicker is a custom view that improves on the built-in android number picker widget and gives the user more 
-flexibility in terms of usage.
+flexibility in terms of usage. This library is still in testing stages so be aware that there are some bugs that need fixing.
 
 Usage
 ======
