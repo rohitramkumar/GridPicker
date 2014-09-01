@@ -37,7 +37,7 @@ Notice the four custom attributes that pertain to the GridPicker.
 GridPicker gridPicker = (GridPicker) findViewById(R.id.sample_picker);
 ```
 
-3. (Optional) Use the method `setClickListeners` to attach onClickListeners to your widget.
+3. Use the method `setClickListeners` to attach onClickListeners to your widget.
 
 ```
 gridPicker.setClickListeners(mClickListener);
@@ -46,7 +46,7 @@ gridPicker.setClickListeners(mClickListener);
 Additional Capabilities
 =======================
 
-1. If you wish to add state list drawables to the buttons in the widget, then utilize `setDrawableResources`.
+If you wish to add state list drawables to the buttons in the widget, then utilize `setDrawableResources`.
 
 ```
 gridPicker.setDrawableResources(drawable1, drawable2, drawable3);
