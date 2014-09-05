@@ -30,7 +30,6 @@ Notice the four custom attributes that pertain to the GridPicker.
 * numRows - The number of rows in the grid (default is 3).
 
 
-
 2. In your `onCreate`, initialize the widget like you would with any other view.
 
 ```
