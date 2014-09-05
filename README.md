@@ -24,10 +24,10 @@ For a working implementation, see the `/sample` folder
 
 Notice the four custom attributes that pertain to the GridPicker.
 
-* startValue - This is the value that the grid picker starts at (default is 1).
-* increment - The increment value (default is 1).
-* numColumns - The number of columns in the grid (default is 3).
-* numRows - The number of rows in the grid (default is 3).
+* startValue: This is the value that the grid picker starts at (default is 1).
+* increment: The increment value (default is 1).
+* numColumns: The number of columns in the grid (default is 3).
+* numRows: The number of rows in the grid (default is 3).
 
 
 2. In your `onCreate`, initialize the widget like you would with any other view.
