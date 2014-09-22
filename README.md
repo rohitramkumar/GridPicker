@@ -7,7 +7,7 @@ flexibility in terms of usage. This library is still in testing stages so be awa
 Usage
 ======
 
-For a working implementation, see the `/sample` folder
+For a working implementation, see the `/sample` folder.
 
 Include the widget in your layout.
 
