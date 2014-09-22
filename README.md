@@ -9,7 +9,7 @@ Usage
 
 For a working implementation, see the `/sample` folder
 
-1. Include the widget in your layout.
+Include the widget in your layout.
 
 ```
 <com.rohitramkumar.gridpicker.app.GridPicker
@@ -30,13 +30,13 @@ Notice the four custom attributes that pertain to the GridPicker.
 * numRows: The number of rows in the grid (default is 3).
 
 
-2. In your `onCreate`, initialize the widget like you would with any other view.
+In your `onCreate`, initialize the widget like you would with any other view.
 
 ```
 GridPicker gridPicker = (GridPicker) findViewById(R.id.sample_picker);
 ```
 
-3. Use the method `setClickListeners` to attach onClickListeners to your widget.
+Use the method `setClickListeners` to attach onClickListeners to your widget.
 
 ```
 gridPicker.setClickListeners(mClickListener);
